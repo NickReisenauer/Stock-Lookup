@@ -1,0 +1,108 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+  transition: all 1s;
+}
+
+.container {
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #64748b;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ticker-link-change {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ticker-link {
+  display: flex;
+  align-items: center;
+}
+
+#name {
+  margin: 0;
+  text-align: start;
+}
+
+#price {
+  margin: 0;
+  padding: 10px;
+  background-color: #e1effe;
+  border-radius: 10px;
+}
+
+#ticker {
+  margin: 0;
+  padding: 10px;
+  background-color: #e1effe;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#link {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #e1effe;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#change {
+  margin: 0;
+}
+
+.positive {
+  background-color: #ddffe3;
+  color: #016612;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.negative {
+  background-color: #fde6ed;
+  color: #d46380;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input {
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #64748b;
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 15px;
+  color: white;
+  background-color: #0262e9;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #0262e9;
+}
+
+h1 {
+  color: #0262e9;
+}
