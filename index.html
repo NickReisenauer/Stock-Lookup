@@ -15,12 +15,18 @@
     </header>
     <main>
       <!-- Forms -->
-      <input type="text" id="input" placeholder="Enter a ticker symbol" />
+      <input
+        type="text"
+        id="input"
+        placeholder="Enter a ticker symbol"
+        oninput="let p = this.selectionStart; this.value = this.value.toUpperCase();this.setSelectionRange(p, p);"
+      />
       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
       <button id="submit">Submit</button>
       <!-- /Forms -->
 
       <!-- Output -->
+      <p id="error"></p>
       <div class="container hidden">
         <div class="name-price">
           <h2 id="name"></h2>
@@ -38,8 +44,6 @@
       </div>
       <!-- /Output -->
     </main>
-    <footer>
-      <p>Made by Nick Reisenauer</p>
-    </footer>
+    <footer></footer>
   </body>
 </html>

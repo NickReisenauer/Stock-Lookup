@@ -19,6 +19,7 @@ body {
   padding-left: 20px;
   padding-bottom: 10px;
   color: #64748b;
+  transition: all 1s;
 }
 
 .name-price {
@@ -49,6 +50,7 @@ body {
   padding: 10px;
   background-color: #e1effe;
   border-radius: 10px;
+  margin-left: 10px;
 }
 
 #ticker {
