@@ -39,7 +39,7 @@ submit.addEventListener("click", () => {
   if (inputValue) {
     axios
       .get(
-        `https://financialmodelingprep.com/api/v3/company/profile/${inputValue}`
+        `https://financialmodelingprep.com/api/v3/company/profile/${inputValue}&apikey=e7ea1b9504e7ab8194013477c6b4fd46`
       )
       .then(function (response) {
         outputData(response);
